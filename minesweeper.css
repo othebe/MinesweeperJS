@@ -1,0 +1,25 @@
+div#board {
+}
+	div#board button.tile {
+		height: 20px;
+		width: 20px;
+		background-color: lightgray;
+		float: left;
+	}
+		div#board button.tile.mine {
+			background-color: red;
+		}
+		div#board button.tile.safe {
+			background-color: lightgreen;
+		}
+		div#board button.tile.mark {
+			background-color: yellow;
+		}
+
+div#menu {
+	padding-bottom: 10px;
+	border-bottom: 1px solid black;
+}
+	div#menu div.remaining {
+		float: right;
+	}

@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<script src="minesweeper.js"></script>
+		<script src="minesweeper_tile.js"></script>
+		<script src="minesweeper_events.js"></script>
+		<script src="main.js"></script>
+		<link rel="stylesheet" type="text/css" href="minesweeper.css">
+	</head>
+	
+	<body>	
+		<div id="menu">
+			<label>Width:</label><input id="input-width" type="text">
+			<label>Height:</label><input id="input-height" type="text">
+			<label>Mines:</label><input id="input-mines" type="text">
+			<button onclick="start();">Start</button>
+			
+			<div class="remaining">
+				Remaining: 
+				<span id="remaining-mines">--</span>
+				/
+				<span id="total-mines">--</span>
+			</div>
+		</div>
+		<div id="board"></div>
+	</body>
+</html>
